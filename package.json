@@ -1,0 +1,30 @@
+{
+  "name": "allthingstalk-api",
+  "version": "1.0.0",
+  "description": "Unofficial AllThingsTalk Node.JS api.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonasclaes/allthingstalk-api.git"
+  },
+  "keywords": [
+    "allthingstalk",
+    "api",
+    "iot"
+  ],
+  "author": "Jonas Claes <jonas@alterit.be>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonasclaes/allthingstalk-api/issues"
+  },
+  "homepage": "https://github.com/jonasclaes/allthingstalk-api#readme",
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0"
+  }
+}

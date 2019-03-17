@@ -1,0 +1,287 @@
+{
+	"allThingsTalkUsername": "",
+	"allThingsTalkPassword": "",
+	"devices": [
+	    {
+	        "id": "R8k2Bfx3EnGjqecoEfUAgUYo",
+	        "name": "TonyStark",
+	        "title": "TonyStark",
+	        "type": "orange-rdk",
+	        "description": "Orange NB-IoT Rapid Development Kit",
+	        "ownerId": "5c6bf3c41ac4880001d29f52",
+	        "gatewayId": null,
+	        "groundId": "RgRTS0ww8ZOMCnt3ZTe44GXx",
+	        "ground": {
+	            "id": "RgRTS0ww8ZOMCnt3ZTe44GXx",
+	            "name": "PXL_PROJECT",
+	            "title": "PXL_PROJECT",
+	            "ownerId": "5c6bf3c41ac4880001d29f52",
+	            "visibility": "public"
+	        },
+	        "grounds": [
+	            {
+	                "id": "RgRTS0ww8ZOMCnt3ZTe44GXx",
+	                "name": "PXL_PROJECT",
+	                "title": "PXL_PROJECT",
+	                "ownerId": "5c6bf3c41ac4880001d29f52",
+	                "visibility": "public"
+	            }
+	        ],
+	        "activityEnabled": true,
+	        "createdBy": "5c6bf3c41ac4880001d29f52",
+	        "updatedBy": "5c6bf3c41ac4880001d29f52",
+	        "createdOn": "2019-02-19T12:38:58.812Z",
+	        "updatedOn": "2019-02-19T12:38:58.812Z",
+	        "lastActiveAt": "2019-03-12T08:54:24.604Z",
+	        "meta": {},
+	        "networks": [
+	            {
+	                "networkId": "orangebe",
+	                "data": {
+	                    "imei": "357518080059991",
+	                    "imsi": null,
+	                    "sim": null
+	                }
+	            }
+	        ],
+	        "assets": [],
+	        "control": null
+	    }
+	],
+	"assets": [
+	    {
+	        "deviceId": "R8k2Bfx3EnGjqecoEfUAgUYo",
+	        "thing": null,
+	        "id": "SScouJVUHdiansUXWMEUvkia",
+	        "name": "air_quality",
+	        "title": "Air quality",
+	        "is": "sensor",
+	        "description": null,
+	        "createdOn": "2019-02-19T12:38:59.125Z",
+	        "updatedOn": "2019-02-19T12:38:59.125Z",
+	        "createdBy": null,
+	        "updatedBy": null,
+	        "profile": {
+	            "type": "integer"
+	        },
+	        "control": {
+	            "name": ""
+	        },
+	        "state": {
+	            "at": "2019-02-19T13:37:04.274Z",
+	            "value": 36
+	        },
+	        "style": "undefined"
+	    },
+	    {
+	        "deviceId": "R8k2Bfx3EnGjqecoEfUAgUYo",
+	        "thing": null,
+	        "id": "bEuH2TJPRkEhl7c2yow3wg2h",
+	        "name": "counter",
+	        "title": "Counter",
+	        "is": "sensor",
+	        "description": null,
+	        "createdOn": "2019-02-19T12:38:58.96Z",
+	        "updatedOn": "2019-02-19T12:38:58.96Z",
+	        "createdBy": null,
+	        "updatedBy": null,
+	        "profile": {
+	            "type": "integer"
+	        },
+	        "control": {
+	            "name": ""
+	        },
+	        "state": {
+	            "at": "2019-02-19T13:04:33.496Z",
+	            "value": 35
+	        },
+	        "style": "undefined"
+	    },
+	    {
+	        "deviceId": "R8k2Bfx3EnGjqecoEfUAgUYo",
+	        "thing": null,
+	        "id": "SmypIuHe6d653azNi6330abi",
+	        "name": "gps",
+	        "title": "Gps",
+	        "is": "sensor",
+	        "description": null,
+	        "createdOn": "2019-02-19T12:38:59.149Z",
+	        "updatedOn": "2019-02-19T12:38:59.149Z",
+	        "createdBy": null,
+	        "updatedBy": null,
+	        "profile": {
+	            "type": "object",
+	            "properties": {
+	                "latitude": {
+	                    "type": "number"
+	                },
+	                "longitude": {
+	                    "type": "number"
+	                },
+	                "altitude": {
+	                    "type": "number"
+	                }
+	            }
+	        },
+	        "control": {
+	            "name": ""
+	        },
+	        "state": {
+	            "at": "2019-03-12T08:54:24.586Z",
+	            "value": {
+	                "latitude": 51.2192858277976,
+	                "longitude": 5.30745763331652
+	            }
+	        },
+	        "style": "undefined"
+	    },
+	    {
+	        "deviceId": "R8k2Bfx3EnGjqecoEfUAgUYo",
+	        "thing": null,
+	        "id": "TV9YtCyrfjLYkR9HtKaQGgh2",
+	        "name": "humidity",
+	        "title": "Humidty",
+	        "is": "sensor",
+	        "description": null,
+	        "createdOn": "2019-02-19T12:38:59.036Z",
+	        "updatedOn": "2019-02-19T12:38:59.036Z",
+	        "createdBy": null,
+	        "updatedBy": null,
+	        "profile": {
+	            "type": "number",
+	            "unit": "%"
+	        },
+	        "control": {
+	            "name": ""
+	        },
+	        "state": {
+	            "at": "2019-02-19T13:37:04.274Z",
+	            "value": 37.919921875
+	        },
+	        "style": "undefined"
+	    },
+	    {
+	        "deviceId": "R8k2Bfx3EnGjqecoEfUAgUYo",
+	        "thing": null,
+	        "id": "8CLv7wToKSEa2UTWw2NTBafR",
+	        "name": "light",
+	        "title": "Light",
+	        "is": "sensor",
+	        "description": null,
+	        "createdOn": "2019-02-19T12:38:59.074Z",
+	        "updatedOn": "2019-02-19T12:38:59.074Z",
+	        "createdBy": null,
+	        "updatedBy": null,
+	        "profile": {
+	            "type": "number",
+	            "unit": "lux"
+	        },
+	        "control": {
+	            "name": ""
+	        },
+	        "state": {
+	            "at": "2019-02-19T13:37:04.274Z",
+	            "value": 7.42963933944702
+	        },
+	        "style": "undefined"
+	    },
+	    {
+	        "deviceId": "R8k2Bfx3EnGjqecoEfUAgUYo",
+	        "thing": null,
+	        "id": "SxU6IesCiL0KNv9I0Ci1HaX8",
+	        "name": "loudness",
+	        "title": "Loudness",
+	        "is": "sensor",
+	        "description": null,
+	        "createdOn": "2019-02-19T12:38:59.073Z",
+	        "updatedOn": "2019-02-19T12:38:59.073Z",
+	        "createdBy": null,
+	        "updatedBy": null,
+	        "profile": {
+	            "type": "number"
+	        },
+	        "control": {
+	            "name": ""
+	        },
+	        "state": {
+	            "at": "2019-02-19T13:37:04.274Z",
+	            "value": 52
+	        },
+	        "style": "undefined"
+	    },
+	    {
+	        "deviceId": "R8k2Bfx3EnGjqecoEfUAgUYo",
+	        "thing": null,
+	        "id": "tcd4cLuPII9JF1TM6IbNZJ7m",
+	        "name": "motion",
+	        "title": "Motion",
+	        "is": "sensor",
+	        "description": null,
+	        "createdOn": "2019-02-19T12:38:59.148Z",
+	        "updatedOn": "2019-02-19T12:38:59.148Z",
+	        "createdBy": null,
+	        "updatedBy": null,
+	        "profile": {
+	            "type": "boolean"
+	        },
+	        "control": {
+	            "name": ""
+	        },
+	        "state": {
+	            "at": "2019-02-19T14:20:09.218Z",
+	            "value": false
+	        },
+	        "style": "undefined"
+	    },
+	    {
+	        "deviceId": "R8k2Bfx3EnGjqecoEfUAgUYo",
+	        "thing": null,
+	        "id": "koxxZriU1RqAqKdmN88ePPTH",
+	        "name": "pressure",
+	        "title": "Pressure",
+	        "is": "sensor",
+	        "description": null,
+	        "createdOn": "2019-02-19T12:38:59.034Z",
+	        "updatedOn": "2019-02-19T12:38:59.034Z",
+	        "createdBy": null,
+	        "updatedBy": null,
+	        "profile": {
+	            "type": "number",
+	            "unit": "hPa"
+	        },
+	        "control": {
+	            "name": ""
+	        },
+	        "state": {
+	            "at": "2019-02-19T13:37:04.274Z",
+	            "value": 1017.12048339844
+	        },
+	        "style": "undefined"
+	    },
+	    {
+	        "deviceId": "R8k2Bfx3EnGjqecoEfUAgUYo",
+	        "thing": null,
+	        "id": "N8UaeXH7dhV4watreCyPBYaP",
+	        "name": "temperature",
+	        "title": "Temperature",
+	        "is": "sensor",
+	        "description": null,
+	        "createdOn": "2019-02-19T12:38:59.01Z",
+	        "updatedOn": "2019-02-19T12:38:59.01Z",
+	        "createdBy": null,
+	        "updatedBy": null,
+	        "profile": {
+	            "type": "number",
+	            "unit": "°C"
+	        },
+	        "control": {
+	            "name": ""
+	        },
+	        "state": {
+	            "at": "2019-02-19T13:37:04.274Z",
+	            "value": 25.8899993896484
+	        },
+	        "style": "undefined"
+	    }
+	]
+}
