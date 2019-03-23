@@ -1,6 +1,6 @@
 {
   "name": "allthingstalk-api",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Unofficial AllThingsTalk Node.JS api.",
   "main": "lib/index.js",
   "scripts": {
